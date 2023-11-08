@@ -25,21 +25,61 @@ export const experience = [
 
   export const projects = [
     {
-      picture: "/ProjectPhotos/clarify.png",
+      picture:"",
+      title: "Typing App",
+      description: 'Web app which allows users to practice their touch typing and view their speeds.',
+      tools: "React.JS, Tailwind, FontAwesome",
+      link: 'https://github.com/AlexSteeves/algotype'
+    },
+    {
+      picture: 'pictures/clarify.png',
       title: "Clarify",
-      description:"Hello",
-      link: ""
+      description:"Lead the development of the Phone app",
+      tools: "ReactNative, ExpoGo, TypeScript",
+      link: "https://github.com/uoClarify/clarify-phone-app"
+    },
+    {
+      picture: 'pictures/HotelPalace.png',
+      title: "Hotel Palace",
+      description:"Full Stack hotel booking app.",
+      tools: 'React.JS, PostgreSQL, CSS, Node.JS',
+      link: "https://github.com/MichiasShiferaw/database-proj"
     }
+
+
   ]
 
-export const skills = [
-  "React.JS",
-  "JavaScript",
-  "TailwindCSS",
+export const languages = [
+  "Java",
   "Python",
-  "mySQL",
-  "NodeJS",
+  "C++",
+  "JavaScript",
+  "Golang",
+  "SQL",
+  "HTML/CSS",
+  "Kotlin",
+  "TypeScript"
+
 ]
+export const frameworks = [
+  "React.JS",
+  "Node.JS",
+  "TailwindCSS",
+  "ReactNative",
+  "ExpoGo",
+  "Angular",
+
+  
+]
+export const tools = [
+  "MySQL",
+  "PostgreSQL",
+  "FireBase",
+  "GIT/github",
+  "Jira",
+  "Docker"
+]
+
 
   
   
