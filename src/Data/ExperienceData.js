@@ -25,7 +25,7 @@ export const experience = [
 
   export const projects = [
     {
-      picture:"",
+      picture:"pictures/AlgoType.png",
       title: "Typing App",
       description: 'Web app which allows users to practice their touch typing and view their speeds.',
       tools: "React.JS, Tailwind, FontAwesome",
