@@ -1,24 +1,24 @@
 export const experience = [
   {
-    header: "Data Analyst",
-    title: "Junior",
-    company: "CRA",
+    jobtitle: "Data Analyst",
+   
+    company: "Canada Revenue Agency",
     body: "Utilized BI tools to craft effective reports, equipping officers with vital data to enhance their job performance",
     skills: "SAS Viya, Cognos BI, Excel",
     time: "Summer 2023",
   },
   {
-    header: "Software Developer",
-    title: "Junior",
-    company: "CBSA",
+    jobtitle: "Software Developer",
+  
+    company: "Canada Border Services Agency",
     body: "Led the development of multiple applications to enhance the Observational Border Database used by officers daily",
     skills: "Java, mySQL, HTML, CSS, Java Swing",
     time: "Winter 2022 - Winter 2023",
   },
 
   {
-    header: "Data Analyst",
-    title: "Junior",
+    jobtitle: "Data Analyst",
+   
     company: "Transport Canada",
     body: "Used Visual Basic to create a risk assessment tool that saved officers 20% of their time",
     skills: "Visual Basic, Excel",

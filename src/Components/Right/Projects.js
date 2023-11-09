@@ -3,7 +3,7 @@ import { projects } from "../../Data/ExperienceData";
 function Projects() {
   return (
     <section id="projects" className="p-5 h-full px-10">
-      <h1 className="mb-4 font-normal text-xl">Projects</h1>
+      <h1 className="mb-4 font-normal text-xl border-b-2 border-slate-300 pb-2">Projects</h1>
       {projects.map((proj, index) => (
         <a href={proj.link} key={index}>
           <div className="p-4 m-4 rounded-lg bg-slate-800 hover:bg-slate-800 duration-500 flex items-center">

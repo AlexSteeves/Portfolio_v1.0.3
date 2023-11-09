@@ -10,7 +10,7 @@ function App() {
         
         <LeftSide />
 
-        <main className="lg:w-1/2  "> 
+        <main className="lg:w-2/3  "> 
           <RightSide />
         </main>
       </section>
