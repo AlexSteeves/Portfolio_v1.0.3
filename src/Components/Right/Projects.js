@@ -2,11 +2,11 @@ import { projects } from "../../Data/ExperienceData";
 
 function Projects() {
   return (
-    <section id="projects" className="p-5 h-full px-10">
-      <h1 className="mb-4 font-normal text-xl border-b-2 border-slate-300 pb-2">Projects</h1>
+    <section id="projects" className="p-5 h-full px-10 text-red-100">
+      <h1 className="mb-4 font-thin text-xl border-b-2 border-slate-300 pb-2 ">Projects</h1>
       {projects.map((proj, index) => (
         <a href={proj.link} key={index}>
-          <div className="p-4 m-4 rounded-lg bg-slate-800 hover:bg-slate-800 duration-500 flex items-center">
+          <div className="p-4 m-4 rounded-lg flex items-center">
             <div className="w-[20%] mr-4">
               <img
                 src={process.env.PUBLIC_URL + proj.picture}
@@ -15,9 +15,9 @@ function Projects() {
               />
             </div>
             <div className = 'text-left w-[80%]'>
-              <h2 className="text-xl font-semibold">{proj.title}</h2>
-              <p className="text-slate-200">{proj.description}</p>
-              <p className="text-slate-200">{proj.tools}</p>
+              <h2 className="text-xl font-normal">{proj.title}</h2>
+              <p className="font-thin pt-1">{proj.description}</p>
+              <p className = "font-thin pt-1">Skills: <span className=" font-normal">{proj.tools}</span></p>
             </div>
           </div>
         </a>

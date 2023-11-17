@@ -29,7 +29,7 @@ export const experience = [
 export const projects = [
   {
     picture: "pictures/AlgoType.png",
-    title: "Typing App",
+    title: "Touch Typing App",
     description:
       "Web app which allows users to practice their touch typing and view their speeds.",
     tools: "React.JS, Tailwind, FontAwesome",
@@ -37,7 +37,7 @@ export const projects = [
   },
   {
     picture: "pictures/clarify.png",
-    title: "Clarify",
+    title: "Clarify Smart Mirror",
     description: "Lead the development of the Phone app",
     tools: "ReactNative, ExpoGo, TypeScript",
     link: "https://github.com/uoClarify/clarify-phone-app",

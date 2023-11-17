@@ -3,19 +3,20 @@ import { experience } from "../../Data/ExperienceData";
 
 const ExperienceComponent = () => {
   return (
-    <section id="experience" className="p-5 h-full px-10">
-      <h1 className="mb-4 font-normal border-b-2 border-slate-300 pb-2 text-xl">Experience</h1>
+    <section id="experience" className="p-5 h-full px-10 text-red-100">
+      <h1 className="mb-4 font-thin border-b-2 border-slate-300 pb-2 text-xl">Experience</h1>
       {experience.map((exp, index) => (
-        <div className="flex bg-slate-800 m-4 rounded-lg">
-          <div className = 'lg:w-[25%] '>
+        <div className="flex m-4">
+          <div className = 'lg:w-[25%] font-thin'>
             <h3 className = 'm-3 mt-5 text-sm'>{exp.time} </h3>
           </div>
           <div key={index} className=" p-4 mb-4 lg:w-[75%]">
-            <h2 className="text-xl font-bold">{exp.jobtitle}</h2>
+            <h2 className="text-xl font-normal">{exp.jobtitle}</h2>
        
-            <h4 className="text-slate-200 font-semibold p-1">{exp.company}</h4>
-            <p className="text-slate-200 p-3">{exp.body}</p>
-            <p className="text-slate-200 pl-3">{exp.skills}</p>
+            <h4 className="font-thin py-1">{exp.company}</h4>
+            <p className="py-3 font-thin">{exp.body}</p>
+            <p className=" font-thin py-2">Skills: <span className = "font-normal" >{exp.skills}</span></p>
+            
           </div>
         </div>
       ))}

@@ -1,21 +1,22 @@
 import { FaGithub } from "react-icons/fa";
-import { BsLinkedin} from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
 
 export default function NavLinks() {
   const resumePath = process.env.PUBLIC_URL + '/pictures/resume.pdf';
 
-
   return (
-    <div > 
-      <ul className="flex justify-center items-center ">
-        <li className="text-white mr-5 text-4xl cursor-pointer shadow-xl">
+    <div> 
+      <ul className="flex justify-center items-center space-x-5">
+        <li className="text-red-100 text-4xl cursor-pointer shadow-xl">
           <a href="https://github.com/AlexSteeves?tab=repositories"><FaGithub /></a>
         </li>
-        <li className="text-white text-4xl cursor-pointer shadow-xl">
+        <li className="text-red-100 text-4xl cursor-pointer shadow-xl">
           <a href="https://www.linkedin.com/in/alexander-steeves-8122b8178/"><BsLinkedin /></a>
         </li>
+        <li className="text-red-100 text-xl font-thin hover:text-red-300 duration-300">
+          <a rel="noreferrer" target="_blank" href={resumePath}>Resume</a>
+        </li>
       </ul>
-      <h1 className="flex justify-center items-center pt-2 text-xl underline underline-offset-2 font-thin"><a rel="noreferrer" target = '_blank' href= {resumePath}>Resume</a></h1>
-    </div >
+    </div>
   );
 }
