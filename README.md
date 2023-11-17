@@ -1,10 +1,10 @@
-Welcome to my portfolio repo
+# Welcome to my portfolio repo
 
-This site was create using React.JS and TailwindCSS
+### This site was create using React.JS and TailwindCSS
 
-To run:
--Clone Repository
--'npm i' to install dependencies
--'npm start' to build and run
+### To run:
+-  Clone Repository
+-  'npm i' to install dependencies
+-  'npm start' to build and run
 
-Have a great day!
+### Have a great day!
