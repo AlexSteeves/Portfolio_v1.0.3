@@ -1,4 +1,4 @@
-/* styles.css */
+
 @keyframes movingGradient {
   0% {
     background-position: 100% 50%;
@@ -12,14 +12,14 @@
 }
 
 body {
-  /* Your gradient colors */
+
   background: linear-gradient(to left, #0e140e, #1f2c1f, #0e140e);
-  /* Animation settings */
+
   animation: movingGradient 20s linear infinite;
-  /* Reset margin and padding */
+
   margin: 0;
   padding: 0;
-  /* Ensure background size covers the entire viewport */
+
   background-size: 200% 200%;
 
   overscroll-behavior: none;
