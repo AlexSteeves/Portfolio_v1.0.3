@@ -38,7 +38,7 @@ export const projects = [
   {
     picture: "pictures/clarify.png",
     title: "Clarify Smart Mirror",
-    description: "Lead the development of the Phone app",
+    description: "Lead the development of the Phone application, using ReactNative and TypeScript to develop and ExpoGo to host.",
     tools: "ReactNative, ExpoGo, TypeScript",
     link: "https://github.com/uoClarify/clarify-phone-app",
   },
@@ -48,6 +48,13 @@ export const projects = [
     description: "Full Stack hotel booking app.",
     tools: "React.JS, PostgreSQL, CSS, Node.JS",
     link: "https://github.com/MichiasShiferaw/database-proj",
+  },
+  {
+    picture : 'pictures/NeuralNetwork.png',
+    title: 'Neural Network',
+    description: 'I used GPT 3.5 to teach me how neural networks function and how to implement one using python and its numpy library.',
+    tools: "Python, NumPy, GPT 3.5",
+    link: "https://github.com/AlexSteeves/BasicNeuralNetwork",
   },
 ];
 
