@@ -28,13 +28,22 @@ export const experience = [
 
 export const projects = [
   {
-    picture: "pictures/AlgoType.png",
-    title: "Touch Typing App",
-    description:
-      "Web app which allows users to practice their touch typing and view their speeds.",
-    tools: "React.JS, Tailwind, FontAwesome",
-    link: "https://github.com/AlexSteeves/algotype",
+
+    picture: "pictures/Nourish.png",
+    title:"Nourish Meal Generator",
+    description:"Meal generator that allows user to select various inputs to create a daily meal plan for them and display all the ingredients. Hosted with Amplify.",
+    tools: "React.JS, TailwindCSS, Axios, GTP3.5-turbo, Amplify",
+    link: "https://github.com/AlexSteeves/Nourish-MealPlanGenerator",
   },
+  
+  {
+    picture: "pictures/PortfolioGit.png",
+    title: "Portfolio",
+    description: "Designed and built this porftolio to display skills and link all of my socials. Hosted with Vercel.",
+    tools: "React.JS, HTML, CSS, TailwindCSS",
+    link: "https://github.com/AlexSteeves/Portfolio_v1.0.3",
+  },
+  
   {
     picture: "pictures/clarify.png",
     title: "Clarify Smart Mirror",
@@ -57,6 +66,21 @@ export const projects = [
     link: "https://github.com/AlexSteeves/BasicNeuralNetwork",
   },
 ];
+
+
+/*
+
+
+{
+    picture: "pictures/AlgoType.png",
+    title: "Touch Typing App",
+    description:
+      "Web app which allows users to practice their touch typing and view their speeds.",
+    tools: "React.JS, Tailwind, FontAwesome",
+    link: "https://github.com/AlexSteeves/algotype",
+  },
+
+*/
 
 export const languages = [
   "Java",
