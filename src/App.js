@@ -8,11 +8,10 @@ import './App.css'
 const App = () => {
   return (
     <div className='relative'>
-      <div className="min-h-screen lg:flex md:justify-between md:gap-4">
+      <div className="min-h-screen lg:flex md:justify-between md:gap-4 lg:mx-20">
         <LeftSide />
-        <main className="lg:w-2/3">
-          <RightSide />
-        </main>
+        <RightSide />
+       
       </div>
     </div>
   );

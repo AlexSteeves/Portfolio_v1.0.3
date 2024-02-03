@@ -1,7 +1,7 @@
 export default function PageLinks() {
   return (
-    <section className=" flex ml-14 relative h-52"> 
-    <ul className="flex flex-col gap-3 font-thin">
+    <section className=" flex relative p-8"> 
+    <ul className="flex flex-row gap-3 font-thin">
       <li>
         <a href="#about" className="">
           <p className= "text-red-100 hover:text-red-hover">About</p>
