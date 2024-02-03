@@ -1,29 +1,38 @@
 export default function PageLinks() {
-  return (
-    <section className=" flex ml-14 relative h-52"> 
-    <ul className="flex flex-col gap-3 font-thin">
-      <li>
-        <a href="#about" className="">
-          <p className= "text-red-100 hover:text-red-hover">About</p>
-        </a>
-      </li>
-      <li>
-        <a href="#experience" className="">
-          <span className="text-red-100 hover:text-red-hover">Experience</span>
-        </a>
-      </li>
-      <li>
-        <a href="#projects" className="">
-          <span className="text-red-100 hover:text-red-hover">Projects</span>
-        </a>
-      </li>
-      <li>
-        <a href="#languages" className="">
-          <span className="text-red-100 hover:text-red-hover">Languages and Tools</span>
-        </a>
-      </li>
-    </ul>
-  </section>
-  
-  );
+    return (
+        <section className=" flex relative mx-8 mt-4 mb-4 ">
+            <ul className="flex flex-grow bg-pallet-secondary p-1 rounded-md">
+
+
+                <li className = "flex-grow ">
+                    <a href="#about">
+                        <p className="link-text ">
+                            About
+                        </p>
+                    </a>
+                </li>
+                <li className = "flex-grow">
+                    <a href="#experience">
+                        <span className="link-text ">
+                            Experience
+                        </span>
+                    </a>
+                </li>
+                <li className = "flex-grow">
+                    <a href="#projects">
+                        <span className="link-text ">
+                            Projects
+                        </span>
+                    </a>
+                </li>
+                <li className = "flex-grow">
+                    <a href="#languages">
+                        <span className="link-text ">
+                            Skills
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    );
 }

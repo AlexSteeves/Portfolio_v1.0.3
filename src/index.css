@@ -3,3 +3,19 @@
 @tailwind utilities;
 
 
+
+
+.primary-text {
+    @apply text-pallet-background text-[21px] rounded-md shadow-md p-1 mb-1 font-thin;
+};
+.header-text {
+    @apply text-[28px] lg:text-[50px] font-semibold drop-shadow-md tracking-tight mt-4;
+};
+.sub-heading-text {
+    @apply text-[16px] lg:text-[37px] font-light drop-shadow-md tracking-tight mt-4;
+}
+.link-text {
+    @apply text-[21px] font-normal text-pallet-primary hover:text-pallet-background text-center duration-300
+}
+
+

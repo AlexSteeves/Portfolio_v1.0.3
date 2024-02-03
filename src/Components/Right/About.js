@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section className="px-14 pt-20 pb-10 h-full font-thin " id="about">
+    <section className=" p-8 h-full font-thin bg-pallet-primary lg:mt-8 mr-8 ml-8 lg:mb-4 rounded-b-md lg:rounded-md" id="about">
       
 
       <p className = "text-red-100"> 

@@ -13,6 +13,14 @@ module.exports = {
         hover: '#00FFFF',
         
       },
+
+      pallet: {
+        primary: "#4631D3",
+        secondary: "#cbf282",
+        background: "#f9f8fc",
+        text: "#090717",
+        accent: "#74cb7a",
+      }
       
     },
     extend: {},
