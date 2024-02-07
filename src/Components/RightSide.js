@@ -4,7 +4,7 @@ import About from "./Right/About"
 import Experience from "./Right/Experience"
 import Projects from "./Right/Projects"
 import Languages from "./Right/Languages"
-import List from "./Right/List";
+
 
 import { languages }  from "../Data/ExperienceData";
 import { frameworks } from "../Data/ExperienceData";
