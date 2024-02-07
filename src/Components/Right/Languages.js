@@ -2,11 +2,11 @@ import { languages } from "../../Data/ExperienceData";
 
 function Languages({ list, name }) {
   return (
-    <div className = 'p-4 m-4'>
+    <div className = 'p-4 px-10 md:px-0 md:p-0'>
       <h1 className="font-thin text-pallet-secondary border-b-2 border-slate-300 pb-2 text-xl">
         {name}
       </h1>
-      <div id="languages" className=" grid grid-cols-2 gap-2 h-full pt-5 px-8">
+      <div id="languages" className="flex flex-col gap-2 h-full pt-5 px-8">
         {list.map((language, index) => (
           <div
             key={index}
