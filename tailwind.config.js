@@ -5,12 +5,12 @@ module.exports = {
   ],
   theme: {
     colors: {
-      red: {
-        100: '#e2e8f0',
-        200: '#0e140e',
-        300: '#234b23',
-        400: '#334155',
-        hover: '#00FFFF',
+      pallet: {
+        primary: '#2345cc',
+        secondary: '#e5b88e',
+        accent: '#afdd6c',
+        background: '#eff1fb',
+        text: '#03050f',
         
       },
       
