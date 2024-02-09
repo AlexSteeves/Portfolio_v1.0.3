@@ -11,15 +11,15 @@ module.exports = {
         secondary: '#e5b88e',
         accent: '#afdd6c',
         background: '#eff1fb',
-        text: '#03050f',
+        text: '#122140',
         
       },
       dark:{
-        primary: "#de9fa0",
-        secondary: "#276b72",
-        accent: "#5248c1",
+        primary: "#89B7EA",
+        secondary: "#351786",
+        accent: "#9f50e0",
         background: "#121212",
-        text: "#f6e4e4",
+        text: "#A1C2E8",
       }
       
     },

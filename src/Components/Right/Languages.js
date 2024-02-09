@@ -3,7 +3,7 @@ import { languages } from "../../Data/ExperienceData";
 function Languages({ list, name }) {
   return (
     <div className = 'p-4 px-10 md:px-0 md:p-0'>
-      <h1 className="font-thin text-pallet-secondary dark:text-dark-secondary border-b-2 border-slate-300 pb-2 text-xl">
+      <h1 className="font-thin text-pallet-text dark:text-dark-accent border-b-2 border-slate-300 pb-2 text-xl">
         {name}
       </h1>
       <div id="languages" className="flex flex-col gap-2 h-full pt-5 px-8">

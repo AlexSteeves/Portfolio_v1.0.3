@@ -17,7 +17,7 @@ export default function TopBar() {
         }
     }
   return (
-    <div className="absolute top-0 right-0 p-2 text-pallet-primary dark:text-dark-primary ">
+    <div className="fixed top-0 right-0 p-2 text-pallet-primary dark:text-dark-primary lg:top-0">
 
 
     <IconButton sx={{ ml: 1 }} onClick={changeTheme} color="inherit">
