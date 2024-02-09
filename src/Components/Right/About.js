@@ -10,17 +10,20 @@ export default function About() {
     <section className="px-14 lg:p-10 pb-10 h-fit font-thin " id="about">
       
 
-
       <p class = "body-text  "> 
-       Welcome to my portfolio! I am a Computer Engineering Student in my final year at the University of Ottawa.
+        Welcome to my portfolio 
+      </p>
+      <p class = "body-text  pt-3"> 
+       I am a Full Stack Developer and Computer Engineering graduate from the University of Ottawa.
       </p>
 
       
 
       <p className = "body-text pt-3">
-        Throughout my academic and professional journey, I've gained proficiency in Java, Python, React, and CSS, and have a strong interest in the fields of full-stack development and finance.</p>
-        <p className = "body-text pt-3">
-        Currently on the hunt for the next opportunity to expand my knowledge and enhance my skills !
+        I enjoy building and designing software that looks good, feels good and serves a purpose. I am always on the look out to improve my skills and work on new projects. 
+        
+        
+        
       </p>
     </section>
   );

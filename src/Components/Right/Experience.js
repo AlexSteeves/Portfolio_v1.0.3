@@ -3,7 +3,7 @@ import { experience } from "../../Data/ExperienceData";
 
 const ExperienceComponent = () => {
   return (
-    <section id="experience" className="p-5 h-fit px-10 text-pallet-secondary dark:text-dark-secondary">
+    <section id="experience" className="p-5 h-fit px-10 text-pallet-text dark:text-dark-accent">
       <h1 className="mb-4 font-thin border-b-2 border-slate-300 pb-2 text-xl">Experience</h1>
       {experience.map((exp, index) => (
         <div key={index} className="flex m-4 text-pallet-primary dark:text-dark-primary items-start">
