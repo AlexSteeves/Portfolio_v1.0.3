@@ -1,9 +1,17 @@
+
+
 export default function About() {
+
+
+  
+
+
   return (
     <section className="px-14 lg:p-10 pb-10 h-fit font-thin " id="about">
       
 
-      <p className = "body-text"> 
+
+      <p class = "body-text  "> 
        Welcome to my portfolio! I am a Computer Engineering Student in my final year at the University of Ottawa.
       </p>
 
