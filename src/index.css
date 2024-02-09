@@ -6,14 +6,14 @@
 
 
 .header-text {
-    @apply font-bold text-[28px] lg:text-[37px] text-pallet-primary tracking-tight mt-4;
+    @apply font-bold text-[28px] lg:text-[37px] text-pallet-primary dark:text-dark-primary tracking-tight mt-4;
 }
 .subheader-text {
-    @apply font-normal text-[16px] lg:text-[21px] text-pallet-primary tracking-tight mt-4;
+    @apply font-normal text-[16px] lg:text-[21px] text-pallet-primary dark:text-dark-primary tracking-tight mt-4;
 }
 
 .body-text{
-    @apply md:text-[18px] text-[13px] text-pallet-text;
+    @apply md:text-[18px] text-[13px] text-pallet-text dark:text-dark-text;
 
 
 }
@@ -25,7 +25,7 @@
 
 @layer base {
     body{
-        @apply bg-pallet-background m-0 p-0 overscroll-none;
+        @apply bg-pallet-background dark:bg-dark-background m-0 p-0 overscroll-none transition-all duration-300;
     }
 }
 
