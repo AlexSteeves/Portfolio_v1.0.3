@@ -3,10 +3,10 @@ import React from "react";
 export default function HeaderText() {
     return (
         <div className="px-14 p-8 lg:p-8  text-left lg:text-center ">
-            <div className="flex justify-start items-start md:justify-center md:items-center">
+            <div className="flex justify-start items-start lg:justify-center lg:items-center">
                 <img
                     src={process.env.PUBLIC_URL + "pictures/Headshot.png"}
-                    className="w-24 h-24 md:w-36 md:h-36 lg:w-48 lg:h-48 mx-auto rounded-full"
+                    className="w-24 h-24 md:w-36 md:h-36 lg:w-44 lg:h-44  rounded-full"
                     alt="Headshot"
                 />
             </div>
