@@ -3,7 +3,7 @@ export const experience = [
     jobtitle: "Data Analyst",
    
     company: "Canada Revenue Agency",
-    body: "Utilized BI tools to craft effective reports, equipping officers with vital data to enhance their job performance",
+    body: "I produced detailed analytics reports using Cognos BI, improving case management efficiency. I helped find a 50% data discrepancy within the legacy and new database management systems.",
     skills: "SAS Viya, Cognos BI, Excel",
     time: "Summer 2023",
   },
@@ -11,8 +11,8 @@ export const experience = [
     jobtitle: "Software Developer",
   
     company: "Canada Border Services Agency",
-    body: "Led the development of multiple applications to enhance the Observational Border Database used by officers daily",
-    skills: "Java, mySQL, HTML, CSS, Java Swing",
+    body: "I developed an automated email filing system, cutting task completion time by 80%, and built an interactive database system that improved officers operational efficiency through real-time data access.",
+    skills: "Java, mySQL, HTML, CSS, Java Swing, ApachePOI, Eclipse",
     time: "Winter 2022 - Winter 2023",
   },
 
@@ -20,7 +20,7 @@ export const experience = [
     jobtitle: "Data Analyst",
    
     company: "Transport Canada",
-    body: "Used Visual Basic to create a risk assessment tool that saved officers 20% of their time",
+    body: "I created a Visual Basic application suite for risk assessment, enhancing rail safety and efficiency. This automation resulted in a 30% decrease in the manual review time by officers, streamlining the risk analysis process.",
     skills: "Visual Basic, Excel",
     time: "Summer 2021",
   },

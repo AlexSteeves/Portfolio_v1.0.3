@@ -16,6 +16,9 @@ export default function NavLinks() {
         <li className="text-pallet-secondary md:text-[24px] hover:text-pallet-primary duration-300 text-[16px] lg:text-[28px] cursor-pointer dark:text-dark-accent dark:hover:text-dark-primary ">
           <a rel="noreferrer" target="_blank" href={resumePath}>Resume</a>
         </li>
+        <li className="text-pallet-secondary md:text-[24px] hover:text-pallet-primary duration-300 text-[16px] lg:text-[28px] cursor-pointer dark:text-dark-accent dark:hover:text-dark-primary ">
+          <a rel="noreferrer" target="_blank" href="mailto:alqusteeves@gmail.com">Contact</a>
+        </li>
       </ul>
     </div>
   );

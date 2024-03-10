@@ -8,13 +8,13 @@ const ExperienceComponent = () => {
       {experience.map((exp, index) => (
         <div key={index} className="flex m-4 text-pallet-primary dark:text-dark-primary items-start">
           <div className="w-[15%] lg:w-[25%]">
-            <h3 className="font-thin text-[12px] lg:text-[16px] mt-0 mb-3">{exp.time}</h3>
+            <h3 className="font-normal text-[12px] lg:text-[16px] mt-0 mb-3">{exp.time}</h3>
           </div>
           <div className="flex-1 p-4 mb-4">
-            <h2 className="font-bold text-[16px] lg:text-[21px]">{exp.jobtitle}</h2>
-            <h4 className="font-normal py-1 exp-text">{exp.company}</h4>
-            <p className="py-3 font-thin exp-text">{exp.body}</p>
-            <p className="font-thin py-2 exp-text">Skills: <span className="font-normal">{exp.skills}</span></p>
+            <h2 className="font-bold body-text">{exp.jobtitle}</h2>
+            <h4 className="font-semibold py-1 body-text">{exp.company}</h4>
+            <p className="font-normal body-text indent-3">{exp.body}</p>
+            <p className="font-normal body-text">Skills: <span className="font-semibold">{exp.skills}</span></p>
           </div>
         </div>
       ))}

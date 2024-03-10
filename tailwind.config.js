@@ -7,11 +7,11 @@ module.exports = {
   theme: {
     colors: {
       pallet: {
-        primary: '#2345cc',
-        secondary: '#e5b88e',
-        accent: '#afdd6c',
-        background: '#eff1fb',
-        text: '#122140',
+        primary: '#64979b',
+        secondary: '#8fdbe5',
+        accent: '#5edaea',
+        background: '#f7fafb',
+        text: '#060808',
         
       },
       dark:{

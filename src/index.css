@@ -4,24 +4,26 @@
 
 
 
-
+body{
+    @apply font-sans
+}
 .header-text {
-    @apply font-bold text-[28px] lg:text-[37px] text-pallet-primary dark:text-dark-primary tracking-tight mt-4;
+    @apply font-bold text-5xl md:text-6xl lg:text-7xl text-pallet-primary dark:text-dark-primary tracking-tight mt-4 ;
 }
 .subheader-text {
-    @apply font-normal text-[16px] lg:text-[21px] text-pallet-primary dark:text-dark-primary tracking-tight mt-4;
+    @apply font-normal text-xl md:text-2xl lg:text-3xl text-pallet-primary dark:text-dark-primary tracking-tight mt-4;
 }
 
 .body-text{
-    @apply text-sm sm:text-xs text-pallet-text dark:text-dark-text;
+    @apply text-base lg:text-lg text-pallet-text dark:text-dark-text  ;
 
 
 }
 .exp-text{
-    @apply text-[12px] lg:text-[16px];
+    @apply text-base md:text-lg lg:text-xl;
 }
 .page-links{
-    @apply py-[1px] px-3 bg-pallet-secondary rounded-xl hover:bg-pallet-accent transition-all duration-300 dark:bg-dark-secondary dark:hover:bg-dark-accent text-xs
+    @apply text-xl md:text-2xl lg:text-3xl  p-1 bg-pallet-secondary rounded-xl hover:bg-pallet-accent transition-all duration-300 dark:bg-dark-secondary dark:hover:bg-dark-accent
 }
 
 

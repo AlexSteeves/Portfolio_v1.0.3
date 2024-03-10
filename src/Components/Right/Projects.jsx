@@ -6,7 +6,7 @@ function Projects() {
       <h1 className="mb-4 font-thin text-xl border-b-2 border-slate-300 pb-2">Projects</h1>
       {projects.map((proj, index) => (
         <a href={proj.link} key={index}>
-          <div className="p-8 m-2 rounded-lg flex items-center hover:bg-pallet-accent text-pallet-primary dark:text-dark-primary dark:hover:bg-dark-accent duration-300">
+          <div className="p-8 m-2 rounded-lg flex items-center hover:opacity-60 duration-500 text-pallet-text dark:text-dark-text ">
             <div className="w-[20%] mr-2">
               <img
                 src={process.env.PUBLIC_URL + proj.picture}

@@ -2,7 +2,7 @@ import React from "react";
 import RightSide from "./Components/RightSide";
 import LeftSide from "./Components/LeftSide";
 
-import{ useState } from "react";
+import{ useEffect} from "react";
 
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
@@ -11,6 +11,19 @@ import './App.css'
 
 
 const App = () => {
+
+  useEffect(()=>{
+      (
+        async () =>{
+          const LocomotiveScroll = (await import('locomotive-scroll')).default;
+          const locomotiveScroll = new LocomotiveScroll();
+        }
+      )()
+
+
+  }, []);
+
+
   return (
     <div className='relative'>
       <TopBar />
