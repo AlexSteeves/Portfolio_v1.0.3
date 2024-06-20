@@ -1,4 +1,5 @@
-# Welcome to my portfolio 
+## Welcome to my portfolio 
+## This portfolio is outdated. My new portfolio is located at: https://alexsteeves.com/
 
 ### This site was create using React.JS and TailwindCSS
 
@@ -8,3 +9,6 @@
 -  'npm start' to build and run
 
 ### Have a great day!
+
+
+
